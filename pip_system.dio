@@ -1,0 +1,84 @@
+<mxfile host="65bd71144e" modified="2021-01-29T15:03:10.949Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" version="13.10.0" etag="q7Dm9gJxJY49eLcoizJM" type="embed">
+    <diagram id="h7TDENpjVDtXf-I0i-c3" name="Page-1">
+        <mxGraphModel dx="736" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" style="locked=1;" parent="0"/>
+                <mxCell id="2" value="pip エコシステム" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="60" width="960" height="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="pip_protocol" style="locked=1;" parent="0"/>
+                <mxCell id="5" value="pip protocol&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="3">
+                    <mxGeometry x="100" y="130" width="880" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="front" style="" parent="0"/>
+                <mxCell id="11" value="hogehoge.gz" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.folder;" vertex="1" parent="10">
+                    <mxGeometry x="160" y="200" width="180" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="sdist形式 =&amp;nbsp;&lt;br&gt;bdist を作るための材料を固めた形式。材料をビルドしてbdistを生成する。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="10">
+                    <mxGeometry x="150" y="150" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="10" source="13" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="setup.py" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="10">
+                    <mxGeometry x="202.5" y="240" width="95" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="10" source="14" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="install" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="20">
+                    <mxGeometry x="-0.0375" y="4" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="&lt;span&gt;.whl (or .egg)&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="10">
+                    <mxGeometry x="484" y="250" width="146" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="bdist 形式 =&lt;br&gt;&amp;nbsp;ビルドが必要無い配布形式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="10">
+                    <mxGeometry x="484" y="200" width="156" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Site Paclages" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="10">
+                    <mxGeometry x="790" y="285" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="setuptools" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=right;fillColor=#00188D;shape=mxgraph.mscae.enterprise.tool;horizontal=1;" vertex="1" parent="10">
+                    <mxGeometry x="430" y="145" width="50" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="10" source="23">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="417" y="195" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="依存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="24">
+                    <mxGeometry x="-0.0488" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="build" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="10">
+                    <mxGeometry x="367.5" y="270" width="46" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="10" source="26" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="pyploject.toml" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="10">
+                    <mxGeometry x="202.5" y="330" width="95" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.48;entryY=-0.044;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="10" source="28" target="29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.47;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="10" source="28" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="pep 517,518 のプロコトルでbuild" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="10">
+                    <mxGeometry x="360" y="325" width="82.5" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="poetry" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.tool;horizontal=1;" vertex="1" parent="10">
+                    <mxGeometry x="370" y="430" width="50" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="flit" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.tool;horizontal=1;" vertex="1" parent="10">
+                    <mxGeometry x="442.5" y="430" width="50" height="45" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
