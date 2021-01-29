@@ -1,4 +1,4 @@
-<mxfile host="65bd71144e" modified="2021-01-29T15:03:10.949Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" version="13.10.0" etag="q7Dm9gJxJY49eLcoizJM" type="embed">
+<mxfile host="65bd71144e" modified="2021-01-29T15:11:01.125Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" version="13.10.0" etag="WXJlt-kgUXSAu76wMUp9" type="embed">
     <diagram id="h7TDENpjVDtXf-I0i-c3" name="Page-1">
         <mxGraphModel dx="736" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
@@ -32,14 +32,14 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="&lt;span&gt;.whl (or .egg)&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="10">
-                    <mxGeometry x="484" y="250" width="146" height="150" as="geometry"/>
+                <mxCell id="14" value="&lt;span&gt;.whl&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="10">
+                    <mxGeometry x="560" y="240" width="146" height="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="bdist 形式 =&lt;br&gt;&amp;nbsp;ビルドが必要無い配布形式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="10">
-                    <mxGeometry x="484" y="200" width="156" height="40" as="geometry"/>
+                <mxCell id="15" value="wheel (bdist) 形式 =&lt;br&gt;&amp;nbsp;ビルドが必要無い配布形式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="10">
+                    <mxGeometry x="540" y="150" width="156" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" value="Site Paclages" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="10">
-                    <mxGeometry x="790" y="285" width="120" height="80" as="geometry"/>
+                    <mxGeometry x="800" y="275" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" value="setuptools" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=right;fillColor=#00188D;shape=mxgraph.mscae.enterprise.tool;horizontal=1;" vertex="1" parent="10">
                     <mxGeometry x="430" y="145" width="50" height="45" as="geometry"/>
@@ -77,6 +77,9 @@
                 </mxCell>
                 <mxCell id="30" value="flit" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.tool;horizontal=1;" vertex="1" parent="10">
                     <mxGeometry x="442.5" y="430" width="50" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="※ 省略している部分があります" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="10">
+                    <mxGeometry x="210" y="80" width="180" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
