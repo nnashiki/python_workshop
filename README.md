@@ -5,10 +5,11 @@ Python エコシステム理解 から パッケージングまで を解説
 - 1. Python をモジュール化できるようになって欲しい
     - 組織の生産性を高めて行こう
 - 2. Python アプリケーションのエコシステムを知って欲しい
-    - 賢者は歴史から学ぶ...Pythonのエコシステムを聞いてプログラミングの動向を見極めて欲しい
+    - 賢者は歴史から学ぶ...Pythonのエコシステムの変遷を聞いて動向を見極めて欲しい
 - 3. Python にはまって世の中をハックできる人材になって欲しい
     - グルー言語としてかなり優秀
     - 特に CLI がこんなに簡単に作れるの？を味わって欲しい
+- 4. 環境周りのつまづきで Python を嫌いにならないで欲しい
 
 ## 自己紹介と経歴
 - なんか話す
@@ -27,12 +28,12 @@ https://qiita.com/nassy20/private/b3625b11b918dbbae33a
 ## 名前空間とは
 https://qiita.com/nassy20/private/3e5fd7a4ab976d025179
 
-## Pythonのモジュール検索の仕組み と 仮想空間
+## Pythonのモジュール検索の仕組み と 仮想環境 について
 - <モジュール検索の仕組み>
 - [Python3 の venv モジュールはどのように仮想化を実現しているのかを調べてみた - Qiita](https://qiita.com/nassy20/items/0f438f638e03fbd9e566)
 
 # パッケージングエコシステム
-とても難解な Python のパッケージエコシステムを解説します。
+難解な Python パッケージのエコシステムを解説します。
 
 ## conda・Anaconda
 - https://gist.github.com/nnashiki/948c60764022ddd049d0985b0f55ccb9
@@ -40,3 +41,7 @@ https://qiita.com/nassy20/private/3e5fd7a4ab976d025179
 
 ## pip の解説
 - [pip に関して - Qiita](https://qiita.com/nassy20/private/e33cd5e27915878bd949)
+
+## パッケージ開発の手順を見てみよう
+- https://github.com/nnashiki/wordcloud-cli/tags
+- chapter ごとにzipをダウンロードしてください
