@@ -23,13 +23,13 @@ Python エコシステム理解 から パッケージングまで を解説
 
 # Python をモジュール化して再利用
 ## モジュール と パッケージ
-https://qiita.com/nassy20/private/b3625b11b918dbbae33a
+- https://qiita.com/nassy20/private/b3625b11b918dbbae33a
 
 ## 名前空間とは
-https://qiita.com/nassy20/private/3e5fd7a4ab976d025179
+- https://qiita.com/nassy20/private/3e5fd7a4ab976d025179
 
 ## Pythonのモジュール検索の仕組み と 仮想環境 について
-- <モジュール検索の仕組み>
+- [Python のモジュールとパッケージに関して - Qiita](https://qiita.com/nassy20/private/b3625b11b918dbbae33a)
 - [Python3 の venv モジュールはどのように仮想化を実現しているのかを調べてみた - Qiita](https://qiita.com/nassy20/items/0f438f638e03fbd9e566)
 
 # パッケージングエコシステム
@@ -43,5 +43,5 @@ https://qiita.com/nassy20/private/3e5fd7a4ab976d025179
 - [pip に関して - Qiita](https://qiita.com/nassy20/private/e33cd5e27915878bd949)
 
 ## パッケージ開発の手順を見てみよう
+- https://github.com/nnashiki/wordcloud-cli
 - https://github.com/nnashiki/wordcloud-cli/tags
-- chapter ごとにzipをダウンロードしてください
