@@ -44,4 +44,7 @@ Python エコシステム理解 から パッケージングまで を解説
 
 ## パッケージ開発の手順を見てみよう
 - https://github.com/nnashiki/wordcloud-cli
-- https://github.com/nnashiki/wordcloud-cli/tags
+- 手順
+    - https://github.com/nnashiki/wordcloud-cli/blob/main/training.md
+- chapter毎のソースコード
+    - https://github.com/nnashiki/wordcloud-cli/tags
